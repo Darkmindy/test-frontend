@@ -46,26 +46,24 @@ Questo progetto React replica fedelmente la homepage del sito web Soulfarm (http
 -   **pnpm:** Gestore di pacchetti JavaScript veloce ed efficiente.
 
 ## Struttura del Progetto
-soulfarm-react/
-├── src/
-│   ├── assets/
-│   │   ├── images/       # Immagini del progetto
-│   │   └── icons/        # Icone del progetto
-│   ├── components/     # Componenti React riutilizzabili
-│   │   └── ProductCard.tsx
-│   ├── sections/       # Sezioni principali della homepage
-│   │   ├── Header.tsx
-│   │   ├── Hero.tsx
-│   │   ├── Products.tsx
-│   │   ├── About.tsx
-│   │   └── Footer.tsx
-│   ├── App.tsx         # Componente principale dell'applicazione
-│   ├── main.tsx        # Punto di ingresso dell'applicazione
-│   └── Products.module.css # Stili per il componente Products
-├── public/           # File statici
-├── package.json      # Informazioni sul progetto e dipendenze
-├── pnpm-lock.yaml    # Lock file per pnpm
-└── vite.config.ts     # Configurazione di Vite
+
+| Cartella/File | Descrizione/Scopo |
+|---|---|
+| `src/assets/images/` | Immagini del progetto |
+| `src/assets/icons/` | Icone del progetto |
+| `src/components/ProductCard.tsx` | Componente per visualizzare una scheda prodotto |
+| `src/sections/Header.tsx` | Intestazione del sito |
+| `src/sections/Hero.tsx` | Sezione introduttiva |
+| `src/sections/Products.tsx` | Sezione dei prodotti |
+| `src/sections/About.tsx` | Sezione "Chi Siamo" |
+| `src/sections/Footer.tsx` | Piè di pagina |
+| `src/App.tsx` | Componente principale dell'applicazione |
+| `src/main.tsx` | Punto di ingresso dell'applicazione |
+| `src/Products.module.css` | Stili per il componente Products |
+| `public/` | File statici |
+| `package.json` | Informazioni sul progetto e dipendenze |
+| `pnpm-lock.yaml` | Lock file per pnpm |
+| `vite.config.ts` | Configurazione di Vite |
 
 ## Componenti Principali
 
